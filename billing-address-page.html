@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/64e3692e6c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ========== Nav-Bar, Page navigation links ========== -->
+    <nav class="nav-bar fluid-box">
+        <div class="nav-brand-logo-box">
+            <div class="brand-logo-box">
+                <img class="brand-logo-img" src="images/png/brand-logo.png" />
+                <h2 class="brand-logo-name">Furniro</h2>
+            </div>
+        </div>
+        <ul class="nav-link-wrap-box flex-box">
+            <li class="nav-link-box"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-link-box"><a href="shop.html" class="nav-link">Shop</a></li>
+            <li class="nav-link-box"><a href="about-page.html" class="nav-link">About</a></li>
+            <li class="nav-link-box"><a href="contact-page.html" class="nav-link">Contact</a></li>
+        </ul>
+        <ul class="nav-icon-wrap-box flex-box">
+            <li class="nav-icon-box">
+                <a href="#" class="nav-icon">
+                    <span class="material-symbols-outlined nav-icon-font">manage_accounts</span>
+                </a>
+            </li>
+            <li class="nav-icon-box">
+                <a href="#" class="nav-icon">
+                    <span class="material-symbols-outlined nav-icon-font">search</span>
+                </a>
+            </li>
+            <li class="nav-icon-box">
+                <a href="#" class="nav-icon">
+                    <span class="material-symbols-outlined nav-icon-font">favorite</span>
+                </a>
+            </li>
+            <li class="nav-icon-box">
+                <a href="#" class="nav-icon">
+                    <span class="material-symbols-outlined nav-icon-font">shopping_cart</span>
+            </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- ========== Checkout Header Section ========== -->
+    <header class="shop-header fluid-box">
+        <div class="shop-hdr-wrap-box flex-box">
+            <img src="images/png/shop-page-header-img.png" class="shop-hdr-img" />
+            <div class="shop-hdr-title-box fluid-box">
+                <h2 class="shop-hdr-title-h">Checkout</h2>
+                <p class="shop-hdr-title-p"><b>Home <span class="material-symbols-outlined">arrow_forward_ios</span></b>  Checkout</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- ========== Billing Address Section ========== -->
+        <section class="checkout fluid-box">
+           <div class="ck-wrap-box">
+                <div class="ck-left-box">
+                    <form action="#" method="post">
+                        <h2 class="form-h">Billing Details</h2>
+                        <fieldset>
+                            <div class="field-box">
+                                <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name" />
+                            </div>
+                            <div class="field-box">
+                                <label for="lasst-name">Last Name</label>
+                                <input type="text" name="last-name" id="last-name" />
+                            </div>
+                        </fieldset>
+                        <label for="company">Company Name (Optional)</label>
+                        <input type="text" name="company" id="company" />
+                        <label for="country">Country / Region</label>
+                        <input type="text" name="country" id="country" />
+                        <label for="street">Street address</label>
+                        <input type="text" name="street" id="street" />
+                        <label for="city">Town / City</label>
+                        <input type="text" name="city" id="city" />
+                        <label for="province">Province</label>
+                        <input type="text" name="province" id="province" />
+                        <label for="zip-code">ZIP code</label>
+                        <input type="text" name="zip-code" id="zip-code" />
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone" id="phone" />
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="email" />
+                        <input type="text" name="addition" id="addition" placeholder="Additional information" />
+                    </form>
+                </div>
+                <div class="ck-right-box">
+                    <div class="ck-receipt-card">
+                        <div class="rpt-card-h-box">
+                            <h3 class="rpt-card-h">Product</h3>
+                            <h3 class="rpt-card-h">Subtotal</h3>
+                        </div>
+                        <div class="rpt-card-am-box">
+                            <p class="rpt-card-name"><i>Asgaard Sofa</i> &times; 1</p>
+                            <p class="rpt-card-am">USD $2500.00</p>
+                        </div>
+                        <div class="rpt-card-am-box last">
+                            <p class="rpt-card-name">Total</p>
+                            <p class="rpt-card-am-big">USD $2500.00</p>
+                        </div>
+                        <div class="rpt-card-dtl-box">
+                            <div class="circle-box b"></div>
+                            <h3 class="rpt-card-method">Direct Bank Transfer</h3>
+                        </div>
+                        <p class="rpt-card-disc">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                        <div class="rpt-card-dtl-box">
+                            <div class="circle-box"></div>
+                            <h3 class="rpt-card-method">Direct Bank Transfer</h3>
+                        </div>
+                        <div class="rpt-card-dtl-box">
+                            <div class="circle-box"></div>
+                            <h3 class="rpt-card-method">Cash on delivery</h3>
+                        </div>
+                        <p class="rpt-card-disc">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <b>privacy policy.</b></p>
+                        <div class="rpt-card-btn-box flex-box">
+                            <button class="rpt-card-btn">Place Order</button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+    </main>
+    <!-- ========== Footer Section ========== -->
+    <footer class="footer-box fluid-box">
+        <div class="foot-cont-wrap-box flex-box">
+            <div class="foot-info-box fluid-box">
+                <div class="brand-logo-box">
+                    <img class="brand-logo-img" src="images/png/brand-logo.png" />
+                    <h2 class="brand-logo-name">Furniro</h2>
+                </div>
+                <address class="foot-info-adrs">
+                    <p class="foot-info-adrs-p">400 University Drive Suite 200 Coral Gable,</p>
+                    <p class="foot-info-adrs-p">FL 33134 USA</p>
+                </address>
+            </div>
+            <div class="foot-link-wrap-box">
+                <h3 class="foot-link-h">Links</h3>
+                <ul class="foot-link-box">
+                    <li class="link"><a href="#" class="link">Home</a></li>
+                    <li class="foot-link"><a href="#" class="link">Shop</a></li>
+                    <li class="foot-link"><a href="#" class="link">About</a></li>
+                    <li class="foot-link"><a href="#" class="link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="foot-link-wrap-box">
+                <h3 class="foot-link-h">Help</h3>
+                <ul class="foot-link-box">
+                    <li class="foot-link"><a href="#" class="link">Payment Options</a></li>
+                    <li class="foot-link"><a href="#" class="link">Returns</a></li>
+                    <li class="foot-link"><a href="#" class="link">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="foot-newslater-box flex-box">
+                <h3 class="foot-newslatter-h">Newslatter</h3>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email Address" />
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+        <div class="foot-cont-CR-box flex-box">
+            <p>2023 furniro. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
